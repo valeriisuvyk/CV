@@ -1,0 +1,229 @@
+main {
+  margin: 150px auto;
+  width: 215mm;
+  min-height: 300mm;
+  background-color: #fff;
+  box-shadow: 0 0 50px lightgray;
+  display: flex;
+    flex-direction: column;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.photoicon {
+  width: 300px;
+  height: 300px;
+}
+
+.headd {
+  display: flex;
+  width: 100%;
+}
+
+.head-title {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.head-title>h1 {
+  font-size: 35px;
+  font-weight: 720;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.head-title>h3 {
+  font-size: 20px;
+}
+
+.head-section {
+  width: 100%;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.head-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 50px;
+  
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: snow;
+  font-size: 15px;
+}
+.contacts {
+display: flex;
+}
+.contacts > a {
+text-decoration: none;
+color:black;
+margin-left:  15px;
+}
+
+.socials>img {
+  width: 35px;
+  height: 35px;
+}
+
+.socials>img {
+  margin-right: 10px;
+}
+
+.socials-line {
+  height: 50%;
+  border: 1px solid snow;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+}
+
+.content-section-subtitle>h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.content-section-left {
+  flex: 1 0 calc(300px - 40px);
+  background: lightslategray;
+  padding-top: 40px;
+  padding-left: 40px;
+ 
+}
+
+.content-section-left-line {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.content-section-left ul {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  margin-bottom: 8px;
+}
+
+.block>a {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+
+.block>a>p {
+  margin-left: 12px;
+  list-style-type: none;
+  line-height: 1.3;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.contect-section-subtitle {
+  margin-top: 20px;
+}
+
+.contect-section-subtitle>h5 {
+  padding-top: 20px;
+}
+
+.contect-section-subtitle>p {
+  padding-top: 20px;
+}
+
+.education-list li {
+  margin-bottom: 20px;
+}
+
+.education-list h5 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.education-list .date {
+  font-size: 14px;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.content-section-right {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.content-section-right-line {
+  border: 1px solid grey;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.content-section-subtitle-right {
+  width: 85%;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.content-section-right-text p {
+  margin-top: 15px;
+  width: 85%;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+.content-section-subtitle-right h5 {
+  margin-top: 20px;
+  width: 85%;
+  line-height: 2;
+}
+
+.content-section-subtitle-right ul {
+  margin-top: 20px;
+  line-height: 2;
+  font-size: 14px;
+}
+
+.experience-position {
+  font-weight: bold;
+}
+
+.experience-company {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.experience-desc {
+  opacity: 0.8;
+  line-height: 2;
+  font-size: 14px;
+}
+
+.subtitle-text {
+  padding-top: 19px;
+}
+
+.contect-section-subtitle>h4 {
+  margin-bottom: 15px;
+}

@@ -227,3 +227,50 @@ margin-left:  15px;
 .contect-section-subtitle>h4 {
   margin-bottom: 15px;
 }
+@media (max-width: 500px){
+  .content{
+    flex-direction: column;    
+  }
+  .content > .content-section-left {
+    padding-bottom: 20px;
+  }
+  main{
+    width: 100%;
+    margin: 0;
+    box-shadow: none;
+  }
+  .head-section  {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding-bottom: 20px;
+  }
+  .head-section .photoicon {
+    width: calc(100% - 30px) ;
+  }
+  .socials {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .socials > a {
+    padding: 20px 0;
+  }
+  .head-title {
+    flex-grow: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .socials-line {
+    width: 100%;
+    border: 1px solid snow;
+    margin: 0;
+  }
+  .content-section-right{
+    padding-bottom: 30px;
+    padding-right:20px;
+  }
+  .headd {
+  flex-direction: column;
+  align-items: center;
+  }
+}
